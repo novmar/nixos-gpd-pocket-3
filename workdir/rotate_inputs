@@ -1,0 +1,5 @@
+#!/bin/bash
+xinput set-prop "GXTP7380:00 27C6:0113 Stylus Eraser (0)"  --type=float "Coordinate Transformation Matrix" 0 1 0 -1 0 1 0 0 1
+xinput set-prop "GXTP7380:00 27C6:0113 Stylus Pen (0)"  --type=float "Coordinate Transformation Matrix" 0 1 0 -1 0 1 0 0 1
+xinput set-prop "GXTP7380:00 27C6:0113"  --type=float "Coordinate Transformation Matrix" 0 1 0 -1 0 1 0 0 1
+xinput set-prop "Virtual core XTEST pointer"  --type=float "Coordinate Transformation Matrix" 0 1 0 -1 0 1 0 0 1
